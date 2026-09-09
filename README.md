@@ -23,9 +23,6 @@ This repository will host the code accompanying:
 The simulated datasets used for the reported evaluations will be deposited
 separately and linked from here.
 
-Clinical EEG and imaging data are not publicly available, owing to restrictions
-relating to patient privacy and institutional data-sharing agreements.
-
 ## Contact
 
 Bin He — bhe1@andrew.cmu.edu
