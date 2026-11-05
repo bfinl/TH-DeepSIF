@@ -1,0 +1,23 @@
+# Versions used for the results reported in the paper (Python 3.7).
+# Newer versions generally work; the pins record the exact tested environment.
+torch==1.4.0
+torchvision==0.5.0
+numpy==1.17.0
+scipy==1.5.2
+h5py==2.8.0
+pandas==1.2.0
+matplotlib==3.3.2
+scikit-learn==0.23.2
+
+# Required only by the statistics scripts in misc_scripts/.
+# These were run under a separate, newer environment (Python 3.12).
+statsmodels>=0.13
+
+# Required by utils.py and eval_sim.py, and by the sLORETA benchmark in misc_scripts/
+mne>=0.24
+hdf5storage>=0.1.18
+scikit-image>=0.17
+
+# Required only by the NMM simulation in forward/ (generate_tvb_hfo.py)
+tvb-library
+PyWavelets

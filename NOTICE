@@ -1,0 +1,28 @@
+TH-DeepSIF
+Copyright (c) 2026 Carnegie Mellon University
+
+This product includes software developed as part of the DeepSIF project
+(https://github.com/bfinl/DeepSIF), Copyright (c) 2022, authors of DeepSIF,
+released under the Clear BSD License. The neural mass model simulation and
+forward modelling pipeline in forward/ is derived from that work; individual
+files note this in their headers.
+
+  Sun R, Sohrabpour A, Worrell GA, He B. Deep neural networks constrained by
+  neural mass models improve electrophysiological source imaging of
+  spatiotemporal brain dynamics. Proc Natl Acad Sci. 2022;119(31):e2201128119.
+  doi:10.1073/pnas.2201128119
+
+The simulation pipeline builds on The Virtual Brain, which is distributed
+separately under its own license and is not redistributed here:
+
+  Sanz Leon P, Knock SA, Woodman MM, et al. The Virtual Brain: a simulator of
+  primate brain network dynamics. Front Neuroinformatics. 2013;7.
+  doi:10.3389/fninf.2013.00010
+
+Source dynamics are generated with the Jansen-Rit neural mass model:
+
+  Jansen BH, Rit VG. Electroencephalogram and visual evoked potential generation
+  in a mathematical model of coupled cortical columns. Biol Cybern.
+  1995;73(4):357-366. doi:10.1007/BF00199471
+
+The Clear BSD License text applying to this repository is in LICENSE.txt.
